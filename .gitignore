@@ -1,0 +1,50 @@
+bak
+build
+devel
+tests
+*.engine
+data
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+src/build/*
+src/devel/*
+.vscode/*
+*.*vscode/*
+*/TensorRT-7.1.3.4/*
+TensorRT-7.1.3.4/*
+src/deepfusion/thirdparty/*TensorRT-7.1.3.4
+src/deepfusion/thirdparty/*
+# Executables
+*.exe
+*.out
+*.app
+*.catkin_workspace
+*.bag
+*.json
+*.zip
